@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="login_style.css">
+    <title>Fake Google Login</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="https://ssl.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_112x36dp.png">
+    </div>
+    <p>Sign in</p>
+    <p>Sign into google to veiw this content</p>
+    <div class="login">
+      <br><br>
+      <div>
+        <img src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+      </div>
+      <br>
+      <input placeholder="Email">
+      <br><br>
+      <a href="#">
+        <a href="">Sign in</a>
+        </div>
+      </>
+      <a href="#">
+        <p>Forgot Email adress?</p>
+      </a>
+    </div>
+    <p>Google 2020</p>
+      <img src="https://ssl.gstatic.com/accounts/ui/wlogostrip_230x17_1x.png">
+    </div>
+    <div class="bottom">
+      <br>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+  </body>
+</html>
+<css>
+<style>
+body {
+  margin: 0;
+}
+
+.logo {
+  width: 112px;
+  height: 36px;
+  margin: 30px auto;
+}
+
+p:nth-child(2) {
+  font-size: 45px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+p:nth-child(3) {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -25px;
+}
+
+.login {
+  height: 300px;
+  width: 350px;
+  margin: auto;
+  background-color: #F7F7F7;
+  box-shadow: 0px 1px 1px 0px grey;
+}
+
+.login > div:nth-child(3) {
+  width: 100px;
+  margin: auto;
+}
+
+.login > div:nth-child(3) > img {
+  height: 100px;
+  border-radius: 100%;
+}
+
+input {
+  height: 35px;
+  width: 250px;
+  margin-left: 48px;
+  font-size: 20px;
+}
+
+.button {
+  display: inline-block;
+  height: 40px;
+  width: 250px;
+  margin-left: 49px;
+  text-align: center;
+  background-color:dodgerblue;
+  border: 1px solid blue;
+  color: white;
+  font-weight: bold;
+}
+
+.login > a:last-child {
+  display: inline-block;
+  float: right;
+  margin-right: 49px;
+  font-size: 14px;
+  text-decoration: none;
+  color: mediumblue;
+}
+
+.login >a:last-child:hover {
+  text-decoration: underline;
+}
+
+p:nth-child(5) {
+  text-align: center;
+}
+
+p > a {
+  text-decoration: none;
+  color: mediumblue;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+p:nth-child(6) {
+  text-align: center;
+}
+
+.logo-strip {
+  width: 230px;
+  margin: -10px auto;
+}
+
+.bottom {
+  height: 35px;
+  width: 100%;
+  border-top: 0.5px solid #E5E5E5;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+  background-color: white;
+}
+
+.bottom a {
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
+.top {
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: 25px;
+  width: 210px;
+  height: 26px;
+  font-size: 14px;
+}
+
+.top a {
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.top a:visited {
+  color: black;
+}
+
+#button {
+  display: inline-block;
+  height: 26px;
+  width: 80px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  float: right;
+  margin-top: -20px;
+}
+
+.middle {
+  width: 500px;
+  margin: 100px auto 0 auto;
+}
+
+img {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.middle input {
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.prvi-gumb {
+  display: inline-block;
+  height: 32px;
+  width: 200px;
+  margin-left: 33px;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 8px;
+  background-color: lightgray;
+  color: dimgray;
+  border-radius: 5px;
+}
+
+.prvi-gumb:hover {
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  height: 30px;
+  width: 198px;
+}
+
+p {
+  text-align: center;
+}
+
+.bottom {
+  height: 40px;
+  width: 100%;
+  background-color: #F2F2F2;
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.bottom div {
+  width: 250px;
+  display: inline-block;
+  margin-left: 24px;
+  padding-top: 12px;
+}
+
+.bottom div a {
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+.bottom div a:hover {
+  text-decoration: underline;
+}
+
+.bottom div a:visited {
+  color: black;
+}
+
+.bottom-desni {
+    float: right;
+    text-align: right;
+}
+</style>
+</css>
